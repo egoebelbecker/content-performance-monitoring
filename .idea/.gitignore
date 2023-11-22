@@ -6,3 +6,11 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# VScode effluvia
+modules.xml
+vcs.xml
+misc.xml
+jupyter-settings.xml
+jsLibraryMappings.xml
+/.idea/
