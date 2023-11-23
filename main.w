@@ -1,9 +1,5 @@
 bring cloud;
 
-// dataForSeoUsername:erik@hitsubscribe.com
-// dataForSeoPassword:8b3564dce0e01e5f
-
-
 let userName = new cloud.Secret(
     name: "dataForSeoUsername",
 ) as "UserSecret";
