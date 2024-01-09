@@ -4,12 +4,18 @@ bring http;
 bring expect;
 bring "./rank_checker.w" as rankChecker;
 
-let checker = new rankChecker.RankChecker("javascript");
+let checker = new rankChecker.RankChecker();
+let api = new cloud.Api();
+log("Starting rank checker");
+api.get("/rank/:keyword", inflight (request: cloud.ApiRequest): cloud.ApiResponse => {
 
+  let search = request.vars.get("keyword");
+  log("Checking rank for " + search);
 
-test "authenticated" {
+  let result = checker.checkRank(search);
+  return cloud.ApiResponse{
+    status: 200,
+    body: Json.stringify(result)
+  };
+});
 
-  let response = checker.checkRank();
-  log("Body: " + response.body);
-    expect.equal(response.status_code, 200);
-}

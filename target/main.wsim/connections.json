@@ -1,4 +1,40 @@
 {
   "version": "connections-0.1",
-  "connections": []
+  "connections": [
+    {
+      "source": "root/Default/cloud.Api/OnRequestHandler0",
+      "target": "root/Default/rankChecker.RankChecker/PasswordSecret",
+      "name": "value()"
+    },
+    {
+      "source": "root/Default/cloud.Api/OnRequestHandler0",
+      "target": "root/Default/rankChecker.RankChecker/PasswordSecret",
+      "name": "$inflight_init()"
+    },
+    {
+      "source": "root/Default/cloud.Api/OnRequestHandler0",
+      "target": "root/Default/rankChecker.RankChecker/UserSecret",
+      "name": "value()"
+    },
+    {
+      "source": "root/Default/cloud.Api/OnRequestHandler0",
+      "target": "root/Default/rankChecker.RankChecker/UserSecret",
+      "name": "$inflight_init()"
+    },
+    {
+      "source": "root/Default/cloud.Api/OnRequestHandler0",
+      "target": "root/Default/rankChecker.RankChecker",
+      "name": "checkRank()"
+    },
+    {
+      "source": "root/Default/cloud.Api/OnRequestHandler0",
+      "target": "root/Default/rankChecker.RankChecker",
+      "name": "$inflight_init()"
+    },
+    {
+      "source": "root/Default/cloud.Api",
+      "target": "root/Default/cloud.Api/OnRequestHandler0",
+      "name": "get()"
+    }
+  ]
 }

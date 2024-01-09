@@ -2,34 +2,39 @@
   "version": "connections-0.1",
   "connections": [
     {
-      "source": "root/env0/test:authenticated/Handler",
+      "source": "root/env0/cloud.Api/OnRequestHandler0",
       "target": "root/env0/rankChecker.RankChecker/PasswordSecret",
       "name": "value()"
     },
     {
-      "source": "root/env0/test:authenticated/Handler",
+      "source": "root/env0/cloud.Api/OnRequestHandler0",
       "target": "root/env0/rankChecker.RankChecker/PasswordSecret",
       "name": "$inflight_init()"
     },
     {
-      "source": "root/env0/test:authenticated/Handler",
+      "source": "root/env0/cloud.Api/OnRequestHandler0",
       "target": "root/env0/rankChecker.RankChecker/UserSecret",
       "name": "value()"
     },
     {
-      "source": "root/env0/test:authenticated/Handler",
+      "source": "root/env0/cloud.Api/OnRequestHandler0",
       "target": "root/env0/rankChecker.RankChecker/UserSecret",
       "name": "$inflight_init()"
     },
     {
-      "source": "root/env0/test:authenticated/Handler",
+      "source": "root/env0/cloud.Api/OnRequestHandler0",
       "target": "root/env0/rankChecker.RankChecker",
       "name": "checkRank()"
     },
     {
-      "source": "root/env0/test:authenticated/Handler",
+      "source": "root/env0/cloud.Api/OnRequestHandler0",
       "target": "root/env0/rankChecker.RankChecker",
       "name": "$inflight_init()"
+    },
+    {
+      "source": "root/env0/cloud.Api",
+      "target": "root/env0/cloud.Api/OnRequestHandler0",
+      "name": "get()"
     }
   ]
 }

@@ -3,7 +3,7 @@ bring util;
 bring http;
 bring expect;
 
-  struct Response {
+  pub struct Response {
     status_code: num;
     body: str;
   }
@@ -12,29 +12,23 @@ bring expect;
   pub class RankChecker {
     userName: cloud.Secret;
     password: cloud.Secret;
-    bodyString: str;
 
 
-    new(keyword: str?) {
+    new() {
+      log("RankChecker constructor called");
       this.userName = new cloud.Secret(
           name: "dataForSeoUsername",
       ) as "UserSecret";
+      log("RankChecker got first secret");
 
       this.password = new cloud.Secret(
           name: "dataForSeoPassword",
       ) as "PasswordSecret";
+      log("RankChecker got second secret");
 
-      let bodyJson = Json [{
-        "language_code": "en",
-        "location_code": 2840,
-        "keyword": keyword
-      }];
-
-      this.bodyString = Json.stringify(bodyJson);
-  
     }
 
-    pub inflight checkRank(): Response {
+    pub inflight checkRank(keyword: str?): Response {
       let auth = util.base64Encode("{this.userName.value()}:{this.password.value()}");
   
       let headers = {
@@ -42,13 +36,21 @@ bring expect;
         Authorization: "Basic " + auth
       };
 
+
+      let bodyJson = Json [{
+        "language_code": "en",
+        "location_code": 2840,
+        "keyword": keyword ?? "foobar"
+      }];
+
+
       let url = "https://api.dataforseo.com/v3/serp/google/organic/live/regular";
 
       let response = http.post(url, {
         headers:
           headers,
         body: 
-          this.bodyString
+            Json.stringify(bodyJson)
         });
   
       let myResponse = Response {

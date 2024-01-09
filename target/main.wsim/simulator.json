@@ -2,86 +2,97 @@
   "types": {
     "@winglang/sdk.cloud.Api": {
       "className": "Api",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/api.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/api.inflight.js"
     },
     "@winglang/sdk.cloud.Bucket": {
       "className": "Bucket",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/bucket.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/bucket.inflight.js"
     },
     "@winglang/sdk.cloud.Counter": {
       "className": "Counter",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/counter.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/counter.inflight.js"
     },
     "@winglang/sdk.cloud.Domain": {
       "className": "Domain",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/domain.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/domain.inflight.js"
     },
     "@winglang/sdk.ex.DynamodbTable": {
       "className": "DynamodbTable",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/dynamodb-table.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/dynamodb-table.inflight.js"
     },
     "@winglang/sdk.cloud.Endpoint": {
       "className": "Endpoint",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/endpoint.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/endpoint.inflight.js"
     },
     "@winglang/sdk.sim.EventMapping": {
       "className": "EventMapping",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/event-mapping.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/event-mapping.inflight.js"
     },
     "@winglang/sdk.cloud.Function": {
       "className": "Function",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/function.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/function.inflight.js"
     },
     "@winglang/sdk.cloud.OnDeploy": {
       "className": "OnDeploy",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/on-deploy.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/on-deploy.inflight.js"
     },
     "@winglang/sdk.cloud.Queue": {
       "className": "Queue",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/queue.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/queue.inflight.js"
     },
     "@winglang/sdk.ex.ReactApp": {
       "className": "ReactApp",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/react-app.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/react-app.inflight.js"
     },
     "@winglang/sdk.ex.Redis": {
       "className": "Redis",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/redis.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/redis.inflight.js"
     },
     "@winglang/sdk.cloud.Schedule": {
       "className": "Schedule",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/schedule.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/schedule.inflight.js"
     },
     "@winglang/sdk.cloud.Secret": {
       "className": "Secret",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/secret.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/secret.inflight.js"
     },
     "@winglang/sdk.cloud.Service": {
       "className": "Service",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/service.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/service.inflight.js"
     },
     "@winglang/sdk.sim.State": {
       "className": "State",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/state.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/state.inflight.js"
     },
     "@winglang/sdk.ex.Table": {
       "className": "Table",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/table.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/table.inflight.js"
     },
     "@winglang/sdk.std.TestRunner": {
       "className": "TestRunner",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/test-runner.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/test-runner.inflight.js"
     },
     "@winglang/sdk.cloud.Topic": {
       "className": "Topic",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/topic.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/topic.inflight.js"
     },
     "@winglang/sdk.cloud.Website": {
       "className": "Website",
-      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v20.10.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/website.inflight.js"
+      "sourcePath": "/home/egoebelbecker/.nvm/versions/node/v18.16.0/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/website.inflight.js"
     }
   },
   "resources": [
+    {
+      "type": "@winglang/sdk.cloud.Endpoint",
+      "path": "root/Default/cloud.Api/Endpoint",
+      "addr": "c8f9befa9128899d1919844cb922e460c5e46ebc48",
+      "props": {
+        "inputUrl": "${wsim#root/Default/cloud.Api#attrs.url}",
+        "url": "${wsim#root/Default/cloud.Api#attrs.url}",
+        "label": "Api root/Default/cloud.Api"
+      },
+      "attrs": {}
+    },
     {
       "type": "@winglang/sdk.cloud.Secret",
       "path": "root/Default/rankChecker.RankChecker/UserSecret",
@@ -99,7 +110,75 @@
         "name": "dataForSeoPassword"
       },
       "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.cloud.Function",
+      "path": "root/Default/cloud.Api/OnRequestHandler0",
+      "addr": "c8c23808d9c74818defa8e09c5086c720dccaf45ca",
+      "props": {
+        "sourceCodeFile": ".wing/onrequesthandler0_c8c23808.js",
+        "sourceCodeLanguage": "javascript",
+        "environmentVariables": {
+          "WING_TARGET": "sim",
+          "SECRET_HANDLE_095c4e47": "${wsim#root/Default/rankChecker.RankChecker/UserSecret#attrs.handle}",
+          "SECRET_HANDLE_f51438d0": "${wsim#root/Default/rankChecker.RankChecker/PasswordSecret#attrs.handle}"
+        },
+        "timeout": 60000
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.cloud.Api",
+      "path": "root/Default/cloud.Api",
+      "addr": "c80f4635ed6b7292cb7595422434786dca0da1930c",
+      "props": {
+        "openApiSpec": {
+          "openapi": "3.0.3",
+          "paths": {
+            "/rank/{keyword}": {
+              "get": {
+                "operationId": "get-rank/:keyword",
+                "responses": {
+                  "200": {
+                    "description": "200 response",
+                    "content": {}
+                  }
+                },
+                "parameters": [
+                  {
+                    "name": "keyword",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                      "type": "string"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.sim.EventMapping",
+      "path": "root/Default/cloud.Api/ApiEventMapping0",
+      "addr": "c8d24191dd748e90e91f88dc7d0458d46aaa620d56",
+      "props": {
+        "subscriber": "${wsim#root/Default/cloud.Api/OnRequestHandler0#attrs.handle}",
+        "publisher": "${wsim#root/Default/cloud.Api#attrs.handle}",
+        "subscriptionProps": {
+          "routes": [
+            {
+              "path": "/rank/:keyword",
+              "method": "GET"
+            }
+          ]
+        }
+      },
+      "attrs": {}
     }
   ],
-  "sdkVersion": "0.54.29"
+  "sdkVersion": "0.54.31"
 }

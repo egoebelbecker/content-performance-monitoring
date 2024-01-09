@@ -23,7 +23,7 @@ class $Root extends $stdlib.std.Resource {
         return `
           require("./inflight.$Closure1-2.js")({
             $checker: ${$stdlib.core.liftObject(checker)},
-            $expect_Util: ${$stdlib.core.liftObject($stdlib.core.toLiftableModuleType(expect.Util, "@winglang/sdk/expect", "Util"))},
+            $std_Json: ${$stdlib.core.liftObject($stdlib.core.toLiftableModuleType(std.Json, "@winglang/sdk/std", "Json"))},
           })
         `;
       }
@@ -48,8 +48,10 @@ class $Root extends $stdlib.std.Resource {
         super._registerOnLift(host, ops);
       }
     }
-    const checker = new rankChecker.RankChecker(this, "rankChecker.RankChecker", "javascript");
-    this.node.root.new("@winglang/sdk.std.Test", std.Test, this, "test:authenticated", new $Closure1(this, "$Closure1"));
+    const checker = new rankChecker.RankChecker(this, "rankChecker.RankChecker");
+    const api = this.node.root.new("@winglang/sdk.cloud.Api", cloud.Api, this, "cloud.Api");
+    console.log("Starting rank checker");
+    (api.get("/rank/:keyword", new $Closure1(this, "$Closure1")));
   }
 }
 const $PlatformManager = new $stdlib.platform.PlatformManager({platformPaths: $platforms});
